@@ -1,0 +1,20 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, header, nav, section, footer{
+  margin: 0;
+	padding: 0;
+
+	font-size: 100%;
+	font: inherit;
+	
+}
+
+html {
+  font-size: 100%; 
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%; 
+}
+img{
+  vertical-align: middle;
+}
+img{
+  border: 0;
+}

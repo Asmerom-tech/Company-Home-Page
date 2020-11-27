@@ -1,0 +1,234 @@
+/* 
+font-family: 'Castoro', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+*/
+* {
+  box-sizing: border-box;
+  scroll-padding-top: 4.475rem;
+  margin:0;
+  padding: 0;
+ font-family: 'Castoro', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+img{
+  width:100%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+nav {
+  width: 100%;
+  padding: 0.625rem;
+  border-bottom: #9a9b9c 1px solid;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 0.125rem 0.125rem 0.5rem gray;
+  z-index: 1;
+}
+nav > * {
+  flex: 1 1 30%;
+}
+nav .logo {
+  display: flex;
+  flex-direction: default;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav .logo a #icon {
+  width: 10.5rem;
+  height: 3.125rem;
+  background-image: url(../images/logo);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.4s all linear 0.2s;
+}
+nav .logo a #icon:hover {
+  background-color: #e3e6e4;
+  transition: 0.3s all linear 0.2s;
+}
+nav .nav-bar ul,
+nav .nav-icons ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+nav .nav-bar ul li,
+nav .nav-icons ul li {
+  transition: 0.4s all linear 0.2s;
+}
+nav .nav-bar ul li:hover,
+nav .nav-icons ul li:hover {
+  text-shadow: 0.125rem 0.125rem 0.5rem #f1f1f7;
+  transition: 0.4s all linear 0.2s;
+}
+nav .nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-bar ul {
+  justify-content: center;
+}
+nav .nav-bar ul li {
+  margin: 0 0.075rem;
+  list-style-type: none;
+}
+nav .nav-bar ul li a {
+  font-family: serif, sans-serif;
+  font-weight: 600;
+  font-size: 1.50rem;
+  text-decoration:inherit;
+}
+nav .nav-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .nav-icons ul {
+  justify-content: flex-end;
+}
+nav .nav-icons ul li {
+  margin: 0 1rem;
+  list-style-type: none;
+}
+/* main content */
+.main{
+  padding-top: 35px;
+  opacity: 0.8;
+}
+.mission {
+  display: flex;
+  height: 300px;
+  background-image: url(../images/banner1.jpg);
+  padding-top: 35px;
+}
+.mission .content {
+  margin: auto;
+  background-color: rgb(221, 219, 219);
+  width: 80%;
+}
+.content{
+  text-align: center;
+}
+/*  about  */
+#about {
+  min-height: 500px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding: 10px;
+  height: 200px;
+}
+.company span {
+  padding: 5px;
+  min-width: 240px;
+  font-weight:800;
+  text-align: center;
+}
+/* team-container */
+.team {
+  background-image: url("../images/img6.jpg");
+  padding-top: 70px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-text{
+  text-align: center;
+}
+.teammate {
+  padding: 10px;
+  color: rgb(248, 248, 248);
+  flex-basis: 280px;
+}
+
+.teammate img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+/* footer */
+.footer{
+  padding-top: 20px;
+ display:block;
+ text-align: center;
+ line-height: 1.2;
+  justify-content: center;
+  background-color: #f1f1f7;
+  height: 150px;
+}
+.footer-text{
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+
+.copyright {
+  padding-top: 20px;
+  text-align: center;
+}
